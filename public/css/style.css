@@ -1,0 +1,67 @@
+
+body{
+    color: #333333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 10px 16px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content{
+    flex-grow: 1;
+    background-image: url('https://unsplash.com/photos/uu-Jw5SunYI/download?force=true&w=1920');
+    background-size: cover;
+}
+
+footer{
+    background: #849dd3;
+    padding: 16px 140px;
+    margin-top: 16px;
+    border-top: 1px solid #9c3c2b;
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1{
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+header a{
+    color: #333333;
+    margin-right: 16px;
+    text-decoration: none;
+}
+input{
+    border: 2px solid #cccccc;
+    padding: 8px;
+    box-shadow: 2px 4px 5px 2px #aedeeb,
+                -3px -2px 3px 0px #aedeeb;
+    border-radius: 8px;
+    outline-style: unset;
+}
+button{
+    margin-left: 20px;
+    cursor: pointer;
+    border: 1px solid #888888;
+    padding: 8px;
+    background: #888888;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px 2px  #ebc8c8,
+                -4px -2px 3px 0px #ebc8c8;
+    outline-style: unset;
+}
+button:hover{
+    box-shadow: 6px 4px 5px 2px #aedeeb;
+    color: white;
+    background-color: black;
+}
+
