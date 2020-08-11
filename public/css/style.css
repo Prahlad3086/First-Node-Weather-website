@@ -10,7 +10,7 @@ body{
 
 .main-content{
     flex-grow: 1;
-    background-image: url('weather.jpg');
+    background-image: url('../image/weather.jpg');
     background-size: cover;
     justify-content: space-around;
     display: flex;
@@ -53,7 +53,7 @@ header a:hover{
 /*  */
 input{
     position: relative;
-    font-size: 18px;
+    font-size: 16px;
     transition: .5s;
     box-sizing: border-box;
 }
@@ -61,18 +61,20 @@ input[type="text"]{
     background: #fff;
     border: none;
     outline: none;
+    text-transform: uppercase;
     width: 200px;
     height: 40px;
     padding: 0 25px;
-    border-radius: 25px 0 0 25px;
+    border-radius: 15px 0 0 15px;
 }
 button{
     position: relative;
-    border-radius: 0 25px 25px 0;
+    border-radius: 0 15px 15px 0;
     height: 40px;
+    font-weight: bold;
     transition: .5s;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 100;
     outline: none;
     border: none;
@@ -82,7 +84,7 @@ button{
 }
 button:hover{
     color: white;
-    background: #23f523;
+    background: rgba(0, 0, 255, 0.6);
     outline: none;
     border: none;
 }
@@ -91,10 +93,61 @@ button:hover{
     margin-bottom: -18px;
 }
 #message-1,#message-2{
-    background: rgba(240,248,255,0.3);
-    /* color: ; */
+    background: rgba(240,248,255,0.4);
     text-shadow: 5px 5px 10px black;
+    line-height: 30px;
+    letter-spacing: 2px;
     color: black;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
+}
+/* help.hbs */
+#About-img{
+    height: 250px;
+    width: 250px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+.icons li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 40px;
+}
+.icons a{
+    text-decoration: unset;
+    color: rgb(240, 233, 233);
+    transition: 0.5s;
+}
+.icons #fb:hover{
+    cursor: pointer;
+    color: rgb(5, 15, 151);
+}
+.icons #insta:hover{
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+}
+.icons #whatsapp:hover{
+    cursor: pointer;
+    color: rgb(1, 110, 1);
+}
+.icons #mail:hover{
+    cursor: pointer;
+    color: rgb(226, 95, 34);
+}
+.icons #git:hover{
+    cursor: pointer;
+    color: rgb(7, 7, 7);
+}
+/* About Page */
+#about-page{
+    background:  rgba(240,248,255,0.4);
+    text-shadow: 5px 5px 10px black;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
 }

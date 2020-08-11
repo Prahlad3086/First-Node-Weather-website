@@ -5,12 +5,28 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="/image/weather.png">
     <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/3f067de817.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <style>
+        #contact{
+            background-color: rgb(229, 158, 66);
+            color:  rgba(248,248,255,0.8);
+            padding: 8px;
+            border-radius: 5px 5px 5px 5px;
+        }
+    </style>
 </head>
 <body>
     <div class="main-content">
         {{>header}}
+        <img id="About-img"src="./image/icon.png">
+        <ul class="icons" style="list-style-type: none;">
+            <li><a id="fb" href="https://www.facebook.com/profile.php?id=100009269886303"><i class="fab fa-facebook"></i></a></li>
+            <li><a id="insta" href="https://www.instagram.com/prahlad_3086"><i class="fab fa-instagram-square"></i></a></li>
+            <li><a id="whatsapp" href="intent://send/7004293401#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end"><i class="fab fa-whatsapp-square"></i></a></li>
+            <li><a id="mail" href="mailto: kprahalad25@gmail.com"><i class="fas fa-envelope-open"></i></a></li>
+            <li><a id="git" href="https://github.com/PrahladKumar1316"><i class="fab fa-github-square"></i></a></li>
+        </ul>
         {{>footer}}
     </div>
 </body>

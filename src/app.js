@@ -29,14 +29,14 @@ app.get('', (req,res) =>{
 
 app.get('/about', (req,res) =>{
     res.render('about',{
-        title: 'About Me',
+        title: 'About',
         name: '© Copyright 2020 Prahlad_3086'
     })
 })
 
 app.get('/help', (req,res) =>{
     res.render('help',{
-        title: 'Help',
+        title: 'Contact Me',
         name: '© Copyright 2020 Prahlad_3086'
     })
 })

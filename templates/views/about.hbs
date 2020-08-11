@@ -6,12 +6,22 @@
     <link rel="icon" href="./image/weather.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <style>
+        #about{
+            background-color: rgb(229, 158, 66);
+            color:  rgba(248,248,255,0.8);
+            padding: 8px;
+            border-radius: 5px 5px 5px 5px;
+        }
+    </style>
 </head>
 <body>
     <div class="main-content">
         {{>header}}
-        <img src="./image/icon.png">
+        <p id="about-page">
+            This is the Weather Info API which is created by me.
+            <br>I used HTML,CSS,JAVASCRIPT,NodeJs and slightly Express to develop it.<br>
+        </p>
         {{>footer}}
     </div>
 </body>
