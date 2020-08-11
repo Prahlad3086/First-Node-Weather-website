@@ -10,7 +10,7 @@ body{
 
 .main-content{
     flex-grow: 1;
-    background-image: url('./image/weather.jpg');/*   */
+    background-image: url('weather.jpg');/*   */
     background-size: cover;
     justify-content: flex-end;
     display: flex;
