@@ -10,9 +10,9 @@ body{
 
 .main-content{
     flex-grow: 1;
-    background-image: url('weather.jpg');/*   */
+    background-image: url('weather.jpg');
     background-size: cover;
-    justify-content: flex-end;
+    justify-content: space-around;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
